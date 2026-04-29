@@ -1,0 +1,42 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Project temporary files
+final_project/tmp/
+final_project/report/rendered/
+
+# Generated data and outputs
+final_project/data/raw/
+final_project/data/interim/
+final_project/data/processed/
+final_project/output/figures/
+final_project/output/tables/
+final_project/output/metrics/
+
+# Generated reports and packages
+final_project/report/*.docx
+final_project/*.zip
+
+# Homework generated data and build artifacts
+hw*/data/
+hw*/output/
+hw*/report/*.docx
+hw*/src/*.egg-info/
+

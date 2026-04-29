@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-data-analysis-hw1"
+version = "0.1.0"
+description = "Scrapy stock data crawler for Python data analysis homework 1"
+requires-python = ">=3.10"
+dependencies = [
+    "scrapy>=2.11",
+    "pymysql>=1.1",
+    "cryptography>=42.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
